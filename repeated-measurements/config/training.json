@@ -1,0 +1,101 @@
+{
+  "four_layers": {
+    "training_steps": 8000,
+    "selected_step": 8000,
+    "lr": 5e-06,
+    "weight_decay": 0.01,
+    "warmup": 100,
+    "seed": 0,
+    "validation_seed": 777,
+    "validation_each": 30,
+    "checkpoint_interval": 2000,
+    "train_ensemble": 1,
+    "evaluation_ensemble": 8,
+    "selection": "minimum Expanded MSE among checkpoints with plain MSE ratio <= 1.05",
+    "precision": "float32",
+    "noise_sd": 0.05,
+    "r": 64,
+    "evaluation_functions": [
+      "quadratic",
+      "abs",
+      "linear",
+      "tanh",
+      "step",
+      "sine"
+    ],
+    "evaluation_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "all_layers": {
+    "training_steps": 12000,
+    "selected_step": 12000,
+    "lr": 1e-06,
+    "weight_decay": 0.01,
+    "warmup": 200,
+    "seed": 0,
+    "validation_seed": 777,
+    "validation_each": 40,
+    "checkpoint_interval": 2000,
+    "train_ensemble": 1,
+    "evaluation_ensemble": 8,
+    "selection": "minimum Expanded MSE among checkpoints passing Expanded improvement and plain MSE ratio <= 1.05",
+    "precision": "float32",
+    "noise_sd": 0.05,
+    "r": 64,
+    "evaluation_functions": [
+      "quadratic",
+      "abs",
+      "linear",
+      "tanh",
+      "step",
+      "sine"
+    ],
+    "evaluation_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "adapter": {
+    "training_steps": 10000,
+    "selected_step": 10000,
+    "lr": 0.0001,
+    "weight_decay": 0,
+    "warmup": 200,
+    "seed": 0,
+    "validation_seed": 777,
+    "validation_each": 40,
+    "checkpoint_interval": 2000,
+    "train_ensemble": 1,
+    "evaluation_ensemble": 8,
+    "selection": "minimum Expanded validation MSE",
+    "precision": "float32",
+    "noise_sd": 0.05,
+    "r": 64,
+    "evaluation_functions": [
+      "quadratic",
+      "abs",
+      "linear",
+      "tanh",
+      "step",
+      "sine"
+    ],
+    "evaluation_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "backend": "tabpfn3",
+    "package": "tabpfn",
+    "version": "8.5.0",
+    "checkpoint": "tabpfn-v3-regressor-v3_default.ckpt",
+    "ensemble": 8,
+    "source": "https://huggingface.co/Prior-Labs/TabPFN-v3"
+  },
+  {
+    "backend": "tabpfn35",
+    "package": "tabpfn",
+    "version": "9.0.0",
+    "checkpoint": "package default regressor",
+    "ensemble": 8,
+    "source": "https://github.com/PriorLabs/TabPFN"
+  },
+  {
+    "backend": "tabicl",
+    "package": "tabicl",
+    "version": "2.2.0",
+    "checkpoint": "tabicl-regressor-v2-20260212",
+    "ensemble": 8,
+    "source": "https://github.com/soda-inria/TabICL"
+  },
+  {
+    "backend": "tabdpt",
+    "package": "tabdpt",
+    "version": "1.3.1",
+    "checkpoint": "package default regressor",
+    "ensemble": "package default",
+    "source": "https://github.com/layer6ai-labs/TabDPT"
+  },
+  {
+    "backend": "limix2",
+    "package": "official checkout",
+    "checkpoint": "LimiX-2.ckpt",
+    "ensemble": "official default",
+    "source": "https://huggingface.co/stable-ai/LimiX-2"
+  },
+  {
+    "backend": "tabfm",
+    "package": "tabfm",
+    "version": "1.0.0",
+    "checkpoint": "tabfm_v1_0_0_pytorch",
+    "ensemble": 32,
+    "source": "https://huggingface.co/google/tabfm-1.0.0-pytorch"
+  }
+]

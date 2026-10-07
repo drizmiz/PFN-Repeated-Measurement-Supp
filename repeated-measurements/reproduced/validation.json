@@ -1,0 +1,22 @@
+{
+  "model_calls": 0,
+  "figures": [
+    "fig1_failure.pdf",
+    "fig_attn_vs_r_20seeds.pdf",
+    "fig_count_control_review.pdf",
+    "fig_embedding_stage.pdf",
+    "fig_fits_strip.pdf",
+    "fig_overview.pdf",
+    "fig_site_offsite.pdf",
+    "fig_three_tables_review.pdf",
+    "fig_weightmap.pdf",
+    "spatial_readings_m24_main.pdf",
+    "theory_count.pdf",
+    "theory_coverage.pdf"
+  ],
+  "main_unique_fits": 153600,
+  "bank_designs": 1020,
+  "bank_identity_checked": true,
+  "training_cells_per_trial": 36,
+  "aggregation": "Paired ratios and marginal MSE medians are computed separately."
+}

@@ -1,0 +1,11 @@
+dataset,source,license_note
+sgemm,https://archive.ics.uci.edu/dataset/440/sgemm+gpu+kernel+performance,CC BY 4.0
+superconductivity,https://archive.ics.uci.edu/dataset/464/superconductivty+data,
+hyd_se_st,https://archive.ics.uci.edu/dataset/447/condition+monitoring+of+hydraulic+systems,CC BY 4.0
+kt_conv_nf,https://github.com/AutoTuningAssociation/benchmark_hub,MIT repository license
+kt_dedisp,https://github.com/AutoTuningAssociation/benchmark_hub,MIT repository license
+gaparine,https://vincentarelbundock.github.io/Rdatasets/csv/drc/G.aparine.csv,drc package GPL-2
+amis,https://vincentarelbundock.github.io/Rdatasets/csv/boot/amis.csv,boot package Unlimited
+bfs_gamma,https://cran.r-project.org/package=hetGP,hetGP package LGPL
+cps,https://www.openml.org/d/44984,
+fcnet_slice,https://huggingface.co/datasets/synetune/blackbox-repository,

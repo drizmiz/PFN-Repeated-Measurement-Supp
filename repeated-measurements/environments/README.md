@@ -1,0 +1,1 @@
+Use one environment per backend. Install the dependencies from the corresponding environment file. Model sources and available version identifiers are listed in `config/models.json`. LimiX-2 additionally requires its official source checkout in `external/LimiX` or `LIMIX_REPO`.

@@ -1,0 +1,74 @@
+[
+  {
+    "val_r64_mse_ad": 0.07054233050680636,
+    "val_r64_mse_sh": 0.07054233050680636,
+    "val_r64_median_ratio": 1.0,
+    "val_r64_wins_ad": 0,
+    "n_r64": 40,
+    "val_plain_mse_ad": 0.08873929660307746,
+    "val_plain_mse_sh": 0.08873929660307746,
+    "val_plain_maxabsdiff": 0.0,
+    "n_plain": 40,
+    "step": 0
+  },
+  {
+    "val_r64_mse_ad": 0.06688397149943882,
+    "val_r64_mse_sh": 0.07054233050680636,
+    "val_r64_median_ratio": 0.9624486454957351,
+    "val_r64_wins_ad": 24,
+    "n_r64": 40,
+    "val_plain_mse_ad": 0.08873929660307746,
+    "val_plain_mse_sh": 0.08873929660307746,
+    "val_plain_maxabsdiff": 0.0,
+    "n_plain": 40,
+    "step": 2000
+  },
+  {
+    "val_r64_mse_ad": 0.06817056786973205,
+    "val_r64_mse_sh": 0.07054233050680636,
+    "val_r64_median_ratio": 1.3610442864510681,
+    "val_r64_wins_ad": 13,
+    "n_r64": 40,
+    "val_plain_mse_ad": 0.08873929660307746,
+    "val_plain_mse_sh": 0.08873929660307746,
+    "val_plain_maxabsdiff": 0.0,
+    "n_plain": 40,
+    "step": 4000
+  },
+  {
+    "val_r64_mse_ad": 0.06917298974507859,
+    "val_r64_mse_sh": 0.07054233050680636,
+    "val_r64_median_ratio": 1.2730113696442769,
+    "val_r64_wins_ad": 12,
+    "n_r64": 40,
+    "val_plain_mse_ad": 0.08873929660307746,
+    "val_plain_mse_sh": 0.08873929660307746,
+    "val_plain_maxabsdiff": 0.0,
+    "n_plain": 40,
+    "step": 6000
+  },
+  {
+    "val_r64_mse_ad": 0.06704454230150289,
+    "val_r64_mse_sh": 0.07054233050680636,
+    "val_r64_median_ratio": 1.3250857508964335,
+    "val_r64_wins_ad": 13,
+    "n_r64": 40,
+    "val_plain_mse_ad": 0.08873923363195571,
+    "val_plain_mse_sh": 0.08873929660307746,
+    "val_plain_maxabsdiff": 6.079673767089844e-05,
+    "n_plain": 40,
+    "step": 8000
+  },
+  {
+    "val_r64_mse_ad": 0.06668706779431095,
+    "val_r64_mse_sh": 0.07054233050680636,
+    "val_r64_median_ratio": 1.2966622691977658,
+    "val_r64_wins_ad": 13,
+    "n_r64": 40,
+    "val_plain_mse_ad": 0.08873929660307746,
+    "val_plain_mse_sh": 0.08873929660307746,
+    "val_plain_maxabsdiff": 0.0,
+    "n_plain": 40,
+    "step": 10000
+  }
+]

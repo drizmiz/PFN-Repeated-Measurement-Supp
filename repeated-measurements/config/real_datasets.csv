@@ -1,0 +1,12 @@
+dataset,d,sites,R_max,n_ctx,within_sd,gid,filename
+sgemm,14,2994,4,150,0.011339799361379117,101,realdata_sgemm.npz
+kt_conv_nf,10,3000,16,150,0.047529324042930005,106,realdata_hA_kt_conv_nf.npz
+kt_dedisp,8,3000,32,150,0.11120637255220041,105,realdata_hA_kt_dedisp.npz
+fcnet_slice,9,3000,4,150,0.1359201442750345,120,realdata_h3_fcnet_slice.npz
+bfs_gamma,2,80,4,40,0.19589207733342462,127,realdata_h4_bfs_gamma.npz
+superconductivity,81,2374,8,78,0.19847855730260958,103,realdata_superconductivity.npz
+gaparine,2,21,8,10,0.3971669746999963,104,realdata_gaparine.npz
+hyd_se_st,4,144,8,72,0.422877113434766,107,realdata_hA_hyd_se_st.npz
+amis,3,84,64,42,0.7831967437079914,109,realdata_hB_amis.npz
+cps,6,3488,32,63,0.8709625034214502,102,realdata_cps.npz
+superconductivity_r16,81,2374,16,22,0.2507664162151612,113,realdata_superconductivity.npz
