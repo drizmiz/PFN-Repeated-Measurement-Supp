@@ -1,4 +1,4 @@
-"""Entry points for the anonymous repeated-measurement artifact."""
+"""Entry points for the repeated-measurement reproduction materials."""
 from pathlib import Path
 import argparse
 import json
