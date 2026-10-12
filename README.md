@@ -47,7 +47,7 @@ Install the relevant environment from `environments/` and obtain the official we
 python reproduce.py run --experiment main --backend tabpfn3 -- --families synth1d --outdir runs/main
 ```
 
-Set `CKPT_V3` for the TabPFN-3 checkpoint, `LIMIX_REPO` for the LimiX checkout, and `HF_TOKEN`
+Set `CKPT_V3` for the TabPFN-v3 checkpoint, `LIMIX_REPO` for the LimiX checkout, and `HF_TOKEN`
 where required. Experiment-specific settings are in `config/` and in the experiment scripts.
 
 For the real-data experiments, obtain the datasets from the sources listed in
