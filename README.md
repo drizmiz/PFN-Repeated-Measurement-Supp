@@ -19,13 +19,13 @@ Everything is in [`repeated-measurements/`](repeated-measurements/):
 | Path | What it holds |
 |---|---|
 | `reproduce.py` | single entry point (`figures`, `smoke`, `run`) |
-| `experiments/` | experiment scripts (main grid, real data, count interventions, theory checks) |
-| `analysis/` | scripts that turn saved results into the paper's figures and tables |
+| `experiments/` | experiment scripts (main grid, real data, count interventions, attention and mechanism checks, exact-copy runs, fine-tuning trials, theory checks) |
+| `analysis/` | script that turns saved results into the paper's figures and tables |
 | `config/` | model versions, experiment manifests, data sources and split specifications |
 | `data/` | saved results and predictions used by the figures |
 | `reproduced/` | the figures and tables as regenerated from `data/` |
 | `environments/` | one environment specification per model backend |
-| `SHA256SUMS` | checksums of the saved results |
+| `SHA256SUMS` | checksums of every file in this folder |
 
 ## Quick start
 
@@ -47,7 +47,7 @@ Install the relevant environment from `environments/` and obtain the official we
 python reproduce.py run --experiment main --backend tabpfn3 -- --families synth1d --outdir runs/main
 ```
 
-Set `CKPT_V3` for the TabPFN-v3 checkpoint, `LIMIX_REPO` for the LimiX checkout, and `HF_TOKEN`
+Set `CKPT_V3` for the TabPFN-3 checkpoint, `LIMIX_REPO` for the LimiX checkout, and `HF_TOKEN`
 where required. Experiment-specific settings are in `config/` and in the experiment scripts.
 
 For the real-data experiments, obtain the datasets from the sources listed in
